@@ -1,0 +1,36 @@
+.download-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.download-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download-button, .telegram-button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 1rem;
+}
+
+.download-button:hover, .telegram-button:hover {
+    background-color: #0088cc;
+}
+
+.download-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

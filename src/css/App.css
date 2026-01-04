@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 1rem 2rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.nav-left h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-right a:hover {
+    color: #00aaff;
+}
+
+.app-content {
+    padding: 2rem;
+    font-family: sans-serif;
+}
