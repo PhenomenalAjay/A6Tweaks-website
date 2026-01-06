@@ -31,7 +31,7 @@ function Download() {
         </button>
       </div>
       <button className="telegram-button" onClick={telegramlink}>
-        Telegram Download 
+        Download via Telegram
       </button>
     </div>
   );

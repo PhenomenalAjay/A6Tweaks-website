@@ -23,7 +23,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-bottom: 1rem;
+    margin-top: 40px;
 }
 
 .download-button:hover, .telegram-button:hover {
@@ -33,4 +33,10 @@
 .download-button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
+}
+@media (max-width: 768px) {
+    .download-button, .telegram-button {
+        margin-top: -50px;
+        padding: 1rem 0.5rem;
+    }
 }

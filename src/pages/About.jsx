@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <footer className="footer">
-        <p>Check for further updates on: <span style={{color:'red'}} onClick={youtubelink}>YouTube</span> / <span style={{color:'blue'}} onClick={discordlink}>Discord</span></p>
+        <p>Support me on  <span onClick={youtubelink}>YouTube</span> and i request you to put feedbacks on comments / Join <span onClick={discordlink}>Discord</span> for futhur updates</p>
       </footer>
     </div>
   );
