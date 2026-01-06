@@ -36,7 +36,9 @@
 }
 @media (max-width: 768px) {
     .download-button, .telegram-button {
-        margin-top: -50px;
+        margin-top: -45px;
         padding: 1rem 0.5rem;
+        width: auto;
     }
+   
 }

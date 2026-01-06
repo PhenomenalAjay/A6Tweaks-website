@@ -117,22 +117,13 @@ nav {
     .app-content {
         padding: 1rem;
     }
-
-    .popup-content {
-        padding: 1.5rem;
-        max-width: 280px;
-    }
-
-    .popup-message {
-        font-size: 1.1rem;
-    }
-
-    .popup-close {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.9rem;
-    }
     *::-webkit-scrollbar{
         display: none;
     }
-    
+    .nav-right a{
+        display: none;
+    } 
+    h2,h1,h3,ol{
+        margin-top: -10px;
+    }
 }
