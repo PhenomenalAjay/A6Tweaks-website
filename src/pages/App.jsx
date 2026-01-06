@@ -54,7 +54,7 @@ function App() {
         <h3>Running the App</h3>
         <ol>
           <li>Launch the application</li>
-          <li>Get Access Token to access the app( where to get token : the access token mentioned in youtube video )</li>
+          <li>Get Access Token to access the app ( where to get token : the access token mentioned in youtube video )</li>
           <li>Select your Windows version (10 or 11)</li>
           <li>Choose from the available optimization categories:
             <ul>
