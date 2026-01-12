@@ -48,7 +48,7 @@ function App() {
       <div className="app-content">
         <h1>A6Tweaks</h1>
         <p>
-          A6Tweaks is an Electron.js application designed to optimize Windows PCs for better performance. It provides a user-friendly interface to apply various system tweaks, clean up temporary files, manage power settings, and more. The app supports both Windows 10 and Windows 11.
+          A6Tweaks is an Desktop application designed to optimize Windows PCs for better performance. It provides a user-friendly interface to apply various system tweaks, clean up temporary files, manage power settings, and more. The app supports both Windows 10 and Windows 11.
         </p>
         <h2>Usage :</h2>
         <h3>Running the App</h3>
