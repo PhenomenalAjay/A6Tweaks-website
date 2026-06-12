@@ -1,5 +1,6 @@
 import logo from '/A6Tweaks.png';
 import '../css/App.css';
+import { youtubelink } from '../Redirect handler/youtube_redirect';
 
 function App() {
     function premium(){
@@ -54,7 +55,7 @@ function App() {
         <h3>Running the App</h3>
         <ol>
           <li>Launch the application</li>
-          <li>Get Access Token to access the app ( where to get token : the access token mentioned in youtube video )</li>
+          <li>Get Access Token from <span className='youtube-word' onClick={youtubelink}>YouTube</span> tutorial video description</li>
           <li>Select your Windows version (10 or 11)</li>
           <li>Choose from the available optimization categories:
             <ul>
@@ -66,7 +67,7 @@ function App() {
           </li>
           <li>Apply the desired optimizations</li>
         </ol>
-        <p><strong>Caution:</strong> Some tweaks may require administrator privileges and can significantly change system behavior. Always create a system restore point before applying advanced tweaks.</p>
+        <p><strong><span style={{ color: 'red' }}>Caution:</span></strong> Some tweaks may require administrator privileges and can significantly change system behavior. Always create a system restore point before applying advanced tweaks.</p>
       </div>
     </>
   );
