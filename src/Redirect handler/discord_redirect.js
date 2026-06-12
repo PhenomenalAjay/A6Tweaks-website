@@ -1,5 +1,5 @@
 export const discordlink = () => {
-    const url = "https://discord.gg/n6gNF5Cz"
+    const url = "https://discord.gg/PsRDXEQ2xH"
     window.open(url, '_blank');
 }
 
