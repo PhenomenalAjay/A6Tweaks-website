@@ -26,9 +26,9 @@ function Download() {
   return (
     <div className="download-container">
       <div className="download-group">
-        <button className="download-button" onClick={handleDownload} disabled={isDownloading}>
+        {/* <button className="download-button" onClick={handleDownload} disabled={isDownloading}>
           {isDownloading ? 'Downloading...' : 'Direct Download'}
-        </button>
+        </button> */}
       </div>
       <button className="telegram-button" onClick={telegramlink}>
         Download via Telegram
