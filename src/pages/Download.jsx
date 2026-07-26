@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { fetchDownloadUrl } from '../download handler/github_download';
+import { fetchDownloadUrl } from '../download handler/googledrive_download';
 import { telegramlink } from '../download handler/telegram_download';
 import '../css/Download.css';
 
@@ -12,10 +12,9 @@ function Download() {
     if (url) {
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'A6Tweaks-App.rar';
+      a.download = 'A6Tweaks-App.exe';
       document.body.appendChild(a);
       a.click();
-      window.URL.revokeObjectURL(url);
       document.body.removeChild(a);
     } else {
       alert('Download failed. Please try again.');
@@ -26,9 +25,9 @@ function Download() {
   return (
     <div className="download-container">
       <div className="download-group">
-        {/* <button className="download-button" onClick={handleDownload} disabled={isDownloading}>
+        <button className="download-button" onClick={handleDownload} disabled={isDownloading}>
           {isDownloading ? 'Downloading...' : 'Direct Download'}
-        </button> */}
+        </button>
       </div>
       <button className="telegram-button" onClick={telegramlink}>
         Download via Telegram
