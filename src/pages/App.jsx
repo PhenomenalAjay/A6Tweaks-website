@@ -65,7 +65,7 @@ function App() {
           <p>The app works in <strong>two modes</strong>:</p>
           <ul>
             <li><strong>Basic mode</strong> — No token required. Covers general, memory, and performance optimizations.</li>
-            <li><strong>Pro Tweaks (Advanced) mode</strong> — Requires a GitHub personal access token. Unlocks advanced registry-based tweaks for deeper system customization.</li>
+            <li><strong>Pro Tweaks (Advanced) mode</strong> —  Unlocks advanced registry-based tweaks for deeper system customization , Requires access token to use pro tweaks (get access token from youtube video description).</li>
           </ul>
         </div>
 
@@ -75,10 +75,10 @@ function App() {
             <h2>Features</h2>
             <h3>General Optimization</h3>
             <ul>
-                <li>Delete temporary files (system <code>Temp</code> and user <code>%temp%</code> directories)</li>
-                <li>Delete user temporary files (<code>%temp%</code>)</li>
-                <li>Run Disk Cleanup utility (<code>cleanmgr.exe</code>)</li>
-                <li>Disable Windows Update services <i>(with caution)</i></li>
+                <li>Delete temporary files </li>
+                <li>Delete user temporary files </li>
+                <li>Run Disk Cleanup utility </li>
+                <li>Disable Windows Update services </li>
             </ul>
 
             <h3>Memory Optimization</h3>
@@ -116,13 +116,13 @@ function App() {
 
         <hr />
 
-        <div className="section">
+        {/* <div className="section">
             <h2>Contact</h2>
             <ul>
                 <li><strong>YouTube:</strong> <a href="#" onClick={(e) => {e.preventDefault(); youtubelink();}}>@a6tweaks</a></li>
                 <li><strong>Discord:</strong> <a href="#" onClick={(e) => {e.preventDefault(); discordlink();}}>Join our server</a></li>
             </ul>
-        </div>
+        </div> */}
 
         <hr />
 

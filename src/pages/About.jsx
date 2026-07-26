@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <footer className="footer">
-        <p>Check video on  <span onClick={youtubelink}>YouTube</span> and I request you to put feedbacks on comments / Join <span onClick={discordlink}>Discord</span> for futhur updates</p>
+        <p>Check video on  <span onClick={youtubelink}>YouTube</span> and put feedbacks on comments / Join <span onClick={discordlink}>Discord</span> for futhur updates</p>
       </footer>
     </div>
   );
