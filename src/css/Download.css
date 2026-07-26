@@ -1,10 +1,9 @@
 .download-container {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 8px;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
     font-family: sans-serif;
 }
 
@@ -18,12 +17,12 @@
     background-color: #00aaff;
     color: white;
     border: none;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 40px;
+    white-space: nowrap;
 }
 
 .download-button:hover, .telegram-button:hover {
@@ -34,11 +33,16 @@
     background-color: #ccc;
     cursor: not-allowed;
 }
+
 @media (max-width: 768px) {
-    .download-button, .telegram-button {
-        margin-top: -45px;
-        padding: 1rem 0.5rem;
-        width: auto;
+    .download-container {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
     }
-   
+
+    .download-button, .telegram-button {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.75rem;
+    }
 }

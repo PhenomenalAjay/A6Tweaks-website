@@ -6,6 +6,12 @@ nav {
     padding: 1rem 2rem;
     color: white;
     font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
 }
 
 .nav-left {
@@ -27,23 +33,99 @@ nav {
 
 .nav-right {
     display: flex;
-    gap: 2rem;
-}
-
-.nav-right a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.3s;
-}
-
-.nav-right a:hover {
-    color: #00aaff;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .app-content {
-    padding: 2rem;
+    padding: 6rem 2rem 2rem;
     font-family: sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 2rem 0;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section li {
+    margin-bottom: 0.5rem;
+}
+
+.section code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.disclaimer {
+    background-color: #fff3cd;
+    border-left: 6px solid #ffc107;
+    padding:20px;
+}
+
+.disclaimer h2 {
+    border-bottom: none;
+    color: #856404;
 }
 
 /* Popup Styles */
@@ -89,15 +171,43 @@ nav {
 .popup-close:hover {
     background-color: #0056b3;
 }
+
 .youtube-word:hover {
     color: red;
     cursor: pointer;
     text-decoration: none;
 }
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+.footer span {
+    color: #00aaff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer span:hover {
+    color: #0088cc;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     nav {
         padding: 0.5rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+    }
+
+    .nav-left {
+        margin-bottom: 0.5rem;
     }
 
     .logo {
@@ -112,22 +222,32 @@ nav {
 
     .nav-right {
         gap: 1rem;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    .nav-right a {
-        font-size: 1rem;
+    .footer {
+        
     }
 
     .app-content {
-        padding: 1rem;
+        padding: 8rem 1rem 1rem;
     }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .section h2 {
+        font-size: 1.5rem;
+    }
+
+    .section h3 {
+        font-size: 1.2rem;
+    }
+
     *::-webkit-scrollbar{
         display: none;
-    }
-    .nav-right a{
-        display: none;
-    } 
-    h2,h1,h3,ol{
-        margin-top: -10px;
     }
 }
