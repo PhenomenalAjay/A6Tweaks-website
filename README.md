@@ -1,7 +1,7 @@
 # A6Tweaks
 
 <p align="center">
-  <img src="./assets/A6Tweaks.png" alt="A6Tweaks Logo" width="120"/>
+  <img src="./public/A6Tweaks.png" alt="A6Tweaks Logo" width="120"/>
 </p>
 
 <p align="center">
